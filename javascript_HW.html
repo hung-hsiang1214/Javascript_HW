@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+</head>
+<body>
+	<script>
+		var number;
+		var rand;
+		rand = Math.floor((Math.random()*10)+1);
+		number = window.prompt("Please guess a number between 1-10");
+		while(number != rand){
+			number = window.prompt("Please guess a number between 1-10");
+		}
+		if(number == rand){
+			alert("This is the correct answer!");
+		}
+	</script>
+</body>
+</html>
